@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ulcnet-noise-suppression"
+version = "0.1.0"
+description = "Local reproduction of the Ultra-Low-Complexity-Deep-Learning-Based-Noise-Suppression repository."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.11",
+  "soundfile>=0.12",
+  "torch>=2.1",
+  "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+metrics = [
+  "pesq>=0.0.4",
+  "pystoi>=0.4.1",
+]
+
+[project.urls]
+Repository = "https://github.com/VamsiKrishna23092005/Ultra-Low-Complexity-Deep-Learning-Based-Noise-Suppression"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+namespaces = true

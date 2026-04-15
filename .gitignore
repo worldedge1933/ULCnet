@@ -1,0 +1,29 @@
+
+# Data
+data/*
+!data/download_voicebank.py
+*.wav
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.pytest_cache/
+*.egg-info/
+
+# Checkpoints (Optional: Keep final, ignore intermediates if too many)
+checkpoints/
+outputs/
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Local workspace helpers
+.upstream_tmp/
+.local_scaffold_backup/
