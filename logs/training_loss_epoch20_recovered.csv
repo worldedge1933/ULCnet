@@ -1,0 +1,8 @@
+epoch,step,total_steps,loss,average_loss,record_type,source
+1,,1447,,0.0470,epoch,console_output_recovered
+2,,1447,,0.0404,epoch,console_output_recovered
+3,,1447,,0.0380,epoch,console_output_recovered
+17,,1447,,0.0325,epoch,console_output_recovered
+18,,1447,,0.0324,epoch,console_output_recovered
+19,,1447,,0.0323,epoch,console_output_recovered
+20,,1447,,0.0322,epoch,console_output_recovered
