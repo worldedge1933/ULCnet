@@ -12,8 +12,7 @@ __pycache__/
 .pytest_cache/
 *.egg-info/
 
-# Checkpoints (Optional: Keep final, ignore intermediates if too many)
-checkpoints/
+# Generated outputs
 outputs/
 
 # IDE
